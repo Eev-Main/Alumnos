@@ -33,49 +33,42 @@ namespace Alumnos
             }
 
             Console.WriteLine("--------------------------------------------");
-            Console.WriteLine("Alumnos de Segundo Semestre de Multimedia" );
+            Console.WriteLine("Alumnos de Segundo Semestre:" );
             foreach (var key in grupo.segundoM.Keys)
             {
                 Console.WriteLine(key.nombres + " " + key.Aplleidos + " " + "(" + "Matricula:" + key.matricula + ")" + ":" + grupo.segundoM.GetValueOrDefault(key));
             }
-            Console.WriteLine("--------------------------------------------");
-            Console.WriteLine("Alumnos de Cuarto Semestre de Multimedia" );
-            foreach (var key in grupo.cuartoM.Keys)
-            {
-                Console.WriteLine(key.nombres + " " + key.Aplleidos + " " + "(" + "Matricula:" + key.matricula + ")" + ":" + grupo.cuartoM.GetValueOrDefault(key));
-            }
-            Console.WriteLine("--------------------------------------------");
-            Console.WriteLine("Alumnos de Sexto Semestre de Multimedia" );
-            foreach (var key in grupo.sextoM.Keys)
-            {
-                Console.WriteLine(key.nombres + " " + key.Aplleidos + " " + "(" + "Matricula:" + key.matricula + ")" + ":" + grupo.sextoM.GetValueOrDefault(key));
-            }
-            Console.WriteLine("--------------------------------------------");
-            Console.WriteLine("Alumnos de octavo Semestre de Multimedia" );
-            foreach (var key in grupo.octavoM.Keys)
-            {
-                Console.WriteLine(key.nombres + " " + key.Aplleidos + " " + "(" + "Matricula:" + key.matricula + ")" + ":" + grupo.octavoM.GetValueOrDefault(key));
-            }
-            Console.WriteLine("--------------------------------------------");
-            Console.WriteLine("Alumnos de Segundo Semestre de Artes Visuales" );
             foreach (var key in grupo.segundoA.Keys)
             {
                 Console.WriteLine(key.nombres + " " + key.Aplleidos + " " + "(" + "Matricula:" + key.matricula + ")" + ":" + grupo.segundoA.GetValueOrDefault(key));
             }
             Console.WriteLine("--------------------------------------------");
-            Console.WriteLine("Alumnos de Cuarto Semestre de Multimedia" );
+            Console.WriteLine("Alumnos de Cuarto Semestre:" );
+            foreach (var key in grupo.cuartoM.Keys)
+            {
+                Console.WriteLine(key.nombres + " " + key.Aplleidos + " " + "(" + "Matricula:" + key.matricula + ")" + ":" + grupo.cuartoM.GetValueOrDefault(key));
+            }
             foreach (var key in grupo.cuartoA.Keys)
             {
                 Console.WriteLine(key.nombres + " " + key.Aplleidos + " " + "(" + "Matricula:" + key.matricula + ")" + ":" + grupo.cuartoA.GetValueOrDefault(key));
             }
             Console.WriteLine("--------------------------------------------");
-            Console.WriteLine("Alumnos de Sexto Semestre de Multimedia" );
+            Console.WriteLine("Alumnos de Sexto Semestre:");
+
+            foreach (var key in grupo.sextoM.Keys)
+            {
+                Console.WriteLine(key.nombres + " " + key.Aplleidos + " " + "(" + "Matricula:" + key.matricula + ")" + ":" + grupo.sextoM.GetValueOrDefault(key));
+            }
             foreach (var key in grupo.sextoA.Keys)
             {
                 Console.WriteLine(key.nombres + " " + key.Aplleidos + " " + "(" + "Matricula:" + key.matricula + ")" + ":" + grupo.sextoA.GetValueOrDefault(key));
             }
             Console.WriteLine("--------------------------------------------");
-            Console.WriteLine("Alumnos de octavo Semestre de Multimedia" );
+            Console.WriteLine("Alumnos de octavo Semestre:" );
+            foreach (var key in grupo.octavoM.Keys)
+            {
+                Console.WriteLine(key.nombres + " " + key.Aplleidos + " " + "(" + "Matricula:" + key.matricula + ")" + ":" + grupo.octavoM.GetValueOrDefault(key));
+            }
             foreach (var key in grupo.octavoA.Keys)
             {
                 Console.WriteLine(key.nombres + " " + key.Aplleidos + " " + "(" + "Matricula:" + key.matricula + ")" + ":" + grupo.octavoA.GetValueOrDefault(key));
